@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome is an icon library, used for e.g. "fa-bell" -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Petsitting Forum</title>
+
+    <style>
+        .flex-container {
+            display: flex; /* Makes the container a flex container */
+            justify-content: space-around; /* Distributes space around items */
+            gap: 20px; /* Adds space between items */
+        }
+
+        .flex-item {
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Petsitting Forum</h1>
+	<!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="/strays">Reported Strays</a></li>
+                <li><a href="/lost">Lost Pets</a></li>
+                <li><a href="/poster_new">New Poster</a></li>
+                <li><a href="/pet_sitting">Pet Sitting</a></li>
+                <li><button><i class="fa fa-bell"></i></button></li>
+                <li><a href="/profile">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="flex-container">
+
+    <div class="flex-item">
+        <img src="doggo.jpeg" alt="Doggo Image" width="700px"/>
+	<p>Name: Xx_Doggo_xX</p>
+	<p>Description: likes grass, and long walks on the beach</p>
+    </div>
+
+    <div class="flex-item">
+        <img src="cat.jpeg" alt="Cat Image" width="700px"/>
+	<p>Name: Mittens</p>
+	<p>Description: do NOT approach, has sharp claws</p>
+    </div>
+
+    <div class="flex-item">
+        <img src="whale.jpg" alt="Whale Image" width="700px"/>
+	<p>Name: Hardin</p>
+	<p>Description: he swam out to sea and didn't come back</p>
+    </div>
+
+</body>
+</html>
