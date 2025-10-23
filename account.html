@@ -1,0 +1,95 @@
+<!-- START HEADER -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome is an icon library, used for e.g. "fa-bell" -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>Find My Pet</title>
+
+    <style>
+        .flex-container {
+            display: flex; /* Makes the container a flex container */
+            justify-content: space-around; /* Distributes space around items */
+            gap: 20px; /* Adds space between items */
+        }
+
+        .flex-item {
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Find My Pet</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <!-- Mark the current page with "active" class -->
+                <li class="nav-item"><a class="nav-link active"href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="strays_page.html">Reported Strays</a></li>
+                <li class="nav-item"><a class="nav-link" href="lost_pets_page.html">Lost Pets</a></li>
+                <li class="nav-item"><a class="nav-link" href="new_poster_form.html">New Poster</a></li>
+                <li class="nav-item"><a class="nav-link" href="pet_sitting_page.html">Pet Sitting</a></li>
+                <li class="nav-item"><button class="btn nav-link"><i class="fa fa-bell"></i></button></li>
+                <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+<!-- END HEADER -->
+
+	<div class="flex-item">
+		<p>
+		Manage account: user_aec563
+		<br>
+		Contact: a@a.a
+		<br>
+		Location: Amsterdam, Netherlands
+		<br>
+		About me: I keep losing my pets, please help me!!!
+		</p>
+	</div>
+
+	<div class="flex-item">
+		<p>
+		My pets:
+		</p>
+
+		<ul>
+			<li>Garfield: long hair orange cat who eats way too much lasagna</li>
+			<li>Odie: beagle with a short tail and is not very intelligent</li>
+		</ul>
+	</div>
+
+	<div class="flex-item">
+
+		<p>
+		My groups:
+		</p>
+
+		<ul>
+			<li>
+			Amsterdam Netherlands Cat Lovers
+			</li>
+		</ul>
+	</div>
+
+	<div class="flex-item">
+
+		<a href="deadend">Privacy Policy</a>
+		<a href="deadend">Terms of Service</a>
+		<a href="deadend">Request a copy of your data</a>
+		<a href="deadend">Delete account</a>
+	</div>
+</body>
+</html>
